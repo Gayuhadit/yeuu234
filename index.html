@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lobby Utama</title>
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-image: url(background.jpg);
+}
+
+
+.logo{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    padding:12px 20px;
+    background:#444;
+    border-radius:6px;
+}
+
+nav ul li a:hover{
+    background:#ff9800;
+}
+
+/* Lobby */
+.lobby{
+    height:calc(100vh - 80px);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(background2.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px;
+    border-radius:12px;
+    text-align:center;
+    box-shadow:0 0 15px rgb(255, 0, 234);
+}
+
+.btn{
+    display:inline-block;
+    margin:10px;
+    padding:15px 30px;
+    background:#ff00dd;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+@media (max-width: 768px){
+
+    .container{
+        width:90%;
+        padding:10px 5px;
+    }
+
+    h1{
+        font-size:22px;
+    }
+
+    p{
+        font-size:14px;
+    }
+
+    .btn{
+        width:50%;
+        padding:5px;
+        margin:8px 0;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="lobby">
+    <div class="container">
+        <h1>welcome, dear🥰</h1>
+        <p>I've been waiting inside</p>
+
+        <br>
+
+        <a href="/bloger/" class="btn">Open</a>
+        <br>
+        <a href="/bloger/" class="btn">View/Live</a>
+    </div>
+    
+</div>
+
+</body>
+</html>
