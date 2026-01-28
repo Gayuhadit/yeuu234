@@ -105,12 +105,18 @@ nav ul li a:hover{
 
         <br>
 
-        <a href="/bloger/" class="btn">Open</a>
+        <button class="btn" role="button">Open</button>
         <br>
-        <a href="/bloger/" class="btn">View/Live</a>
+        <button class="btn" role="button">View/Live</button>
     </div>
     
 </div>
-
+<script>
+    document.querySelectorAll('button.btn').forEach(btn =>{
+        btn.addEventListener("click",()=>{
+            location.href="https://blogger-alpha-blond.vercel.app/"
+        })
+    })
+</script>
 </body>
 </html>
